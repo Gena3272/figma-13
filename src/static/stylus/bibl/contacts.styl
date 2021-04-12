@@ -1,0 +1,51 @@
+footer
+  text-align center
+.contacts-top
+  margin-top: 114px
+  &__title
+    font-size: 34px;
+    line-height: 42px;
+    color $black
+  &__des
+    font-size: $fontsSize
+    line-height $lineHeight
+    color $black
+    padding 0 316px
+  &__btn
+    background-color: $black
+    color white
+    outline none
+    border-radius 30%px
+    border none
+    width: 180px
+    height: 40px
+    font-size: $fontsSize
+    line-height $lineHeight
+    margin-top: 30px
+    cursor pointer
+    &:hover
+      background-color: $grey2
+      color $black
+      border 1px solid $black
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.contacts-bottom
+  margin-top: 80px
+  padding-bottom: 50px;
+  &__list
+    display: flex
+    justify-content center
+    padding: 0
+    margin-bottom: 45px
+    &__item
+      margin-left: 60px
+      &:first-child
+        margin-left: 0
+      &__img
+        transition all .3s
+        &:hover
+          opacity .2
+  &__des
+    margin: 0
+    font-size: 14px;
+    line-height: 17px;
+    color $grey1

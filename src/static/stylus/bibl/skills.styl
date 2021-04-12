@@ -1,0 +1,107 @@
+.skills__title
+  margin-top: 91px
+  text-align center
+  font-size: 34px;
+  line-height: 42px;
+.skills__des
+  margin-top: 47px
+  text-align center
+  font-size: $fontsSize
+  line-height: $lineHeight
+.skills__list
+  display: flex
+  justify-content: space-around
+  text-align center
+  margin-top: 85px
+  &__item__title
+    margin-top 24px
+  &__item__title
+    padding 0 54px
+
+
+.rating-area {
+  padding-right: 50px
+  margin-top: 30px
+  overflow: hidden;
+  width: 212px;
+  //margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+  display: none;
+}
+.rating-area:not(:checked) > label {
+  float: right;
+  width: 30px;
+  padding: 0
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 32px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+  content: '★';
+}
+.rating-area > input:checked ~ label {
+  color: $black;
+  text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+  color: $black;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+  color: $black;
+  text-shadow: 1px 1px blackrod;
+}
+.rate-area > label:active {
+  position: relative;
+}
+//  1
+.rating1-area {
+  padding-right: 50px
+  margin-top: 30px
+  overflow: hidden;
+  width: 212px;
+  //margin: 0 auto;
+}
+.rating1-area:not(:checked) > input {
+  display: none;
+}
+.rating1-area:not(:checked) > label {
+  float: right;
+  width: 30px;
+  padding: 0
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 32px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+.rating1-area:not(:checked) > label:before {
+  content: '★';
+}
+.rating1-area > input:checked ~ label {
+  color: $black;
+  text-shadow: 1px 1px #c60;
+}
+.rating1-area:not(:checked) > label:hover,
+.rating1-area:not(:checked) > label:hover ~ label {
+  color: $black;
+}
+.rating1-area > input:checked + label:hover,
+.rating1-area > input:checked + label:hover ~ label,
+.rating1-area > input:checked ~ label:hover,
+.rating1-area > input:checked ~ label:hover ~ label,
+.rating1-area > label:hover ~ input:checked ~ label {
+  color: $black;
+  text-shadow: 1px 1px blackrod;
+}
+.rate-area > label:active {
+  position: relative;
+}
+

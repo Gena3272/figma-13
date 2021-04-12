@@ -1,0 +1,28 @@
+.portfolio
+  text-align center
+  background-color: $grey2
+  margin-top: 110px
+  &__title
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 110px
+    margin-bottom: 0
+.portfolio__link
+  margin-top: 45px
+  &:last-child
+    padding-bottom: 96 px
+  & > a
+    color $black
+    font-size: $fontsSize
+    line-height $lineHeight
+    &:hover
+      text-decoration underline
+
+.portfolio__img
+  margin-top: 99px
+  transition: .2s linear;
+
+  &:hover
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor pointer
+
